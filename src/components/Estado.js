@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 
+function EstadoAHijo(props) {
+	return (
+		<div>
+			<h3>{props.contadorHijo}</h3>
+		</div>
+	);
+}
+
 export default class Estado extends Component {
 	constructor(props) {
 		super(props);
@@ -18,6 +26,7 @@ export default class Estado extends Component {
 			<div>
 				<h2>Esto es un Estado</h2>
 				<p>{this.state.contador}</p>
+				<EstadoAHijo contadorHijo={this.state.contador} />
 			</div>
 		);
 	}
