@@ -5,6 +5,11 @@ import Componente from "./components/Component";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoElementos from "./components/RenderizadoElementos";
+// import Eventos from "./components/Eventos";
+import { EventosES6 } from "./components/EventosES6";
+import { EventosES7 } from "./components/EventosES7";
+import { MasSobreEventos } from "./components/EventosPlus";
 
 function App() {
 	return (
@@ -33,6 +38,16 @@ function App() {
 					<Estado />
 					<hr />
 					<RenderizadoCondicional />
+					<hr />
+					<RenderizadoElementos />
+					{/* <hr />
+					<Eventos /> */}
+					<hr />
+					<EventosES6 />
+					<hr />
+					<EventosES7 />
+					<hr />
+					<MasSobreEventos />
 				</section>
 			</header>
 		</div>
