@@ -10,6 +10,8 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import { EventosES6 } from "./components/EventosES6";
 import { EventosES7 } from "./components/EventosES7";
 import { MasSobreEventos } from "./components/EventosPlus";
+import ComunicacionComponente from "./components/ComunicacionComponente";
+import CicloVida from "./components/CicloVida";
 
 function App() {
 	return (
@@ -48,6 +50,10 @@ function App() {
 					<EventosES7 />
 					<hr />
 					<MasSobreEventos />
+					<hr />
+					<ComunicacionComponente />
+					<hr />
+					<CicloVida />
 				</section>
 			</header>
 		</div>
