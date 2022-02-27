@@ -12,6 +12,7 @@ import { EventosES7 } from "./components/EventosES7";
 import { MasSobreEventos } from "./components/EventosPlus";
 import ComunicacionComponente from "./components/ComunicacionComponente";
 import CicloVida from "./components/CicloVida";
+import PeticionesAsincronicas from "./components/PeticionesAsincronicas";
 
 function App() {
 	return (
@@ -54,6 +55,8 @@ function App() {
 					<ComunicacionComponente />
 					<hr />
 					<CicloVida />
+					<hr />
+					<PeticionesAsincronicas />
 				</section>
 			</header>
 		</div>
