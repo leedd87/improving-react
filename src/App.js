@@ -13,6 +13,8 @@ import { MasSobreEventos } from "./components/EventosPlus";
 import ComunicacionComponente from "./components/ComunicacionComponente";
 import CicloVida from "./components/CicloVida";
 import PeticionesAsincronicas from "./components/PeticionesAsincronicas";
+import Hooks from "./components/Hooks";
+import ContadorHooks from "./components/ContadorHooks";
 
 function App() {
 	return (
@@ -57,6 +59,10 @@ function App() {
 					<CicloVida />
 					<hr />
 					<PeticionesAsincronicas />
+					<hr />
+					<Hooks />
+					<hr />
+					<ContadorHooks />
 				</section>
 			</header>
 		</div>
