@@ -18,6 +18,7 @@ import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import AjaxHooks from "./components/AjaxHooks";
+import CustomHooks from "./components/CustomHooks";
 
 function App() {
 	return (
@@ -72,6 +73,8 @@ function App() {
 					<RelojHooks />
 					<hr />
 					<AjaxHooks />
+					<hr />
+					<CustomHooks />
 				</section>
 			</header>
 		</div>
