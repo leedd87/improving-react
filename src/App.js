@@ -15,6 +15,8 @@ import CicloVida from "./components/CicloVida";
 import PeticionesAsincronicas from "./components/PeticionesAsincronicas";
 import Hooks from "./components/Hooks";
 import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
 
 function App() {
 	return (
@@ -63,6 +65,10 @@ function App() {
 					<Hooks />
 					<hr />
 					<ContadorHooks />
+					<hr />
+					<ScrollHooks />
+					<hr />
+					<RelojHooks />
 				</section>
 			</header>
 		</div>
